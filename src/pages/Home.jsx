@@ -5,12 +5,20 @@ export default function HomePage() {
     <div className="min-h-screen bg-[#f4f1ea] text-[#382110] font-serif">
       {/* Navbar */}
       <nav className="bg-[#382110] text-white p-4 flex justify-between items-center sticky top-0 z-10">
-        <h1 className="text-2xl font-bold">Books & Bytes</h1>
+        <h1 className="text-2xl font-bold">Keith Nambale</h1>
         <ul className="flex gap-6 text-sm font-light">
-          <li className="hover:underline cursor-pointer">Projects</li>
-          <li className="hover:underline cursor-pointer">Gallery</li>
-          <li className="hover:underline cursor-pointer">About</li>
-          <li className="hover:underline cursor-pointer">Contact</li>
+          <li className="hover:underline cursor-pointer">
+	  	<a href='/projects'>Projects</a>
+	  </li>
+          <li className="hover:underline cursor-pointer">
+	  	<a href='/gallery'>Gallery</a>
+	  </li>
+          <li className="hover:underline cursor-pointer">
+	  	<a href='/about'>About</a>
+	  </li>
+          <li className="hover:underline cursor-pointer">
+	  	<a href='/contact'>Contact</a>
+	  </li>
         </ul>
       </nav>
 
