@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-undef */
+
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -25,8 +27,6 @@
 // export default App;
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-// import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -37,7 +37,6 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <Router>
-      // <Navbar />
       <main className="min-h-screen bg-[#f5f5dc] text-[#222] px-6 py-4">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -47,7 +46,6 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      // <Footer />
     </Router>
   );
 }
