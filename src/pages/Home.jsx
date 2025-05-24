@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -8,16 +9,16 @@ export default function HomePage() {
         <h1 className="text-2xl font-bold">Keith Nambale</h1>
         <ul className="flex gap-6 text-sm font-light">
           <li className="hover:underline cursor-pointer">
-	  	<a href='/projects'>Projects</a>
+	  	<Link> to='/projects'>Projects</Link>
 	  </li>
           <li className="hover:underline cursor-pointer">
-	  	<a href='/gallery'>Gallery</a>
+	  	<Link> to='/gallery'>Gallery</Link>
 	  </li>
           <li className="hover:underline cursor-pointer">
-	  	<a href='/about'>About</a>
+	  	<Link> to='/about'>About</Link>
 	  </li>
           <li className="hover:underline cursor-pointer">
-	  	<a href='/contact'>Contact</a>
+	  	<Link> to='/contact'>Contact</Link>
 	  </li>
         </ul>
       </nav>
@@ -59,11 +60,11 @@ export default function HomePage() {
       <section className="py-12 text-center">
         <h4 className="text-xl mb-6">FOLLOW</h4>
         <div className="flex justify-center gap-6 text-2xl">
-          <a href="#" className="hover:text-[#6c8e5e]">🐙</a>
-          <a href="#" className="hover:text-[#6c8e5e]">✈️</a>
-          <a href="#" className="hover:text-[#6c8e5e]">🐦</a>
-          <a href="#" className="hover:text-[#6c8e5e]">💼</a>
-          <a href="#" className="hover:text-[#6c8e5e]">🎮</a>
+          <Link> to="#" className="hover:text-[#6c8e5e]">🐙</Link>
+          <Link> to="#" className="hover:text-[#6c8e5e]">✈️</Link>
+          <Link> to="#" className="hover:text-[#6c8e5e]">🐦</Link>
+          <Link> to="#" className="hover:text-[#6c8e5e]">💼</Link>
+          <Link> to="#" className="hover:text-[#6c8e5e]">🎮</Link>
         </div>
       </section>
 
