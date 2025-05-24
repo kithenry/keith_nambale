@@ -37,7 +37,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <Router>
-      <main className="min-h-screen bg-[#f5f5dc] text-[#222] px-6 py-4">
+      <main className="min-h-screen bg-[#f5f5dc] text-[#222]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
